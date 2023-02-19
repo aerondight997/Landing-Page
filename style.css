@@ -1,0 +1,27 @@
+body {
+  height: 100vh;
+}
+
+.header {
+ display: flex;
+ padding: 30px;
+ flex-direction: column;
+}
+
+.header-full {
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+}
+.header-links {
+  display: flex;
+  gap: 25px; 
+}
+
+.header-logo {
+    display: flex;
+}
+
+.header-content {
+    display: flex;
+}
