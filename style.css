@@ -218,5 +218,13 @@ body {
     
 }
 
+.footer {
+    display: flex;
+    height: 100px;
+    background-color: #1F2937;
+    color:#F8FAF8;
+    justify-content: center;
+    align-items: center;
+}
 
 
