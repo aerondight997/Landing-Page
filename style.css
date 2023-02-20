@@ -88,6 +88,7 @@ body {
 .information {
  display: flex;
  flex-direction: column;
+ gap: 30px;
 }
 
 .text {
@@ -97,27 +98,39 @@ body {
   color: #1F2937;
   justify-content: center;
   align-items: center;
+  padding-top: 30px;
 }
+ 
+.content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
 
 .boxes {
   display: flex;
+  flex-direction: row;
   justify-content: center;
   align-items: center;
-  gap: 20px;
+  gap: 50px;
 }
 
 .small-box1 {
     display: flex;
-    width: 100px;
-    height: 100px;
+    flex-direction: column;
+    justify-content: end;
+    width: 175px;
+    height: 175px;
     border: 3px solid #3882F6;
     border-radius: 15px;
 }
 
 .small-box2{
     display: flex;
-    width: 100px;
-    height: 100px;
+    width: 175px;
+    height: 175px;
     border: 3px solid #3882F6;
     border-radius: 15px;
     
@@ -125,8 +138,8 @@ body {
 
 .small-box3 {
     display: flex;
-    width: 100px;
-    height: 100px;;
+    width: 175px;
+    height: 175px;
     border: 3px solid #3882F6;
     border-radius: 15px;
     
@@ -134,9 +147,19 @@ body {
 
 .small-box4 {
     display: flex;
-    width: 200px;
-    height: 200px;
+    width: 175px;
+    height: 175px;
     border: 3px solid #3882F6;
     border-radius: 15px;
-    
 }
+
+.box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 175px;
+    gap: 15px;
+    text-align: center;
+}
+
