@@ -170,5 +170,53 @@ body {
     flex-direction: column;
 }
 
+.signup {
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ color: #F8FAF8;
+ height: 300px;
+}
+
+.signup1 {
+    display: flex;
+    background-color: #3882F6;
+    height: 125px;
+    width: 1000px;
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+.signup2 {
+    display: flex;
+    flex-direction: row;
+    width: 700px;
+    justify-content: space-between;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+}
+
+.action {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.button1 {
+    display: flex;
+    border: 2px solid #F8FAF8;
+    border-radius: 10px;
+    width: 150px;
+    height: 35px;
+    font-size: 18px;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    
+}
+
 
 
