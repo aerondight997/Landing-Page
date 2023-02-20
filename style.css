@@ -140,9 +140,11 @@ body {
 .quote {
     display: flex;
     height: 500px;
+    flex-direction: column;
     background-color: #E5E7EB;
     justify-content: center;
     align-items: center;
+    padding-top: 50px;
 }
 
 .quote1 {
@@ -151,7 +153,21 @@ body {
     font-weight: lighter;
     font-style: italic;
     width: 640px;
-    height: 150px;
+    height: 150px;    
+}
+
+.quote2 {
+    display: flex;
+    font-size: 25px;
+    font-weight: 900;
+    padding-top: 60px;
+    justify-content: flex-end;
+}
+
+.container {
+    display: flex;
+    width: 640px;
+    flex-direction: column;
 }
 
 
